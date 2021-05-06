@@ -54,7 +54,7 @@ namespace DapperPaging.Pages
                     RecordsPerPage = PageSize,
                     TotalRecords = Employees[0].TotalRows,
                     UrlParams = QParam.ToString(),
-                    LinksPerPage = 7
+                    LinksPerPage = 5
                 };               
             }
         }
